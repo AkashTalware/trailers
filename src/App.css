@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+    color: #d3ebe6;
+    font-size: medium;
+    font-family: cursive;
 }
 
 .App-logo {
@@ -26,6 +29,63 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.toast.show {
+  display: block;
+  opacity: 1;
+  margin: auto auto 10px auto;
+  color: #460518;
+}
+
+.card-shadow{
+  text-align: center;
+justify-content: center;
+/* padding-bottom: 30px; */
+/* padding-top: 30px; */
+border-radius: 10px;
+box-shadow: 3px 10px 10px 3px black;
+border: 2px solid rgb(36, 3, 3);
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 20px;
+}
+
+.card-title{
+  color: #3c0606;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.genres{
+  border-radius: 16px;
+    border: solid 3px #3eb770;
+    padding: 2px 8px;
+    margin: 2px 2px 5px 2px;
+    color: #14edb7;
+}
+
+#rating {
+  border-radius: 3px;
+  border: solid 2px #48585f;
+  padding: 2px 8px;
+}
+
+.heading{
+  background-color: #343a406e;
+  padding: 2px;
+  border-color: red;
+  border: 3px
+}
+
+.genre-list{
+  margin: 2px 15% 2px 15%;
+}
+
+.movieTitle{
+  text-transform: uppercase;
+  font-family: Train One;
+  color: #ffe807d6;
+  margin-bottom: 35px;
 }
 
 @keyframes App-logo-spin {
